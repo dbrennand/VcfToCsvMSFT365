@@ -59,6 +59,7 @@ def main(file_path: str):
                         "E-mail Address": email,
                     }
                 )
+                # Increase counter.
                 count += 1
     print(f"---\n{count} contacts processed.")
 
